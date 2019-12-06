@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container{
+	background-color: coral;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#div1{
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	width: 40vw;
+}
+
+#imgeifel{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+
+}
+
+.txtbx{
+	height: 50px;
+	width: 300px;
+	font-size: 18pt;
+	border: solid coral 2px;
+	border-radius: 2%;
+	color: pink;
+}
+
+.txtbx::placeholder{
+	color: lightgrey;
+}
+
+.btn{
+	height: 50px;
+	width: 300px;
+	font-size: 18pt;
+	border: solid coral 2px;
+	border-radius: 2%;
+	color: white;
+	background-color: coral;
+}
+
+

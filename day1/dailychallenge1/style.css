@@ -1,0 +1,9 @@
+#imgdog{
+	float: right; 
+	width: 49%;
+	border: solid navy 3px;
+}
+
+.part1{
+	overflow: auto;
+}

@@ -1,0 +1,12 @@
+.box{
+	height: 300px;
+	width: 300px;
+}
+
+#wrapper{
+	display: flex;
+	border: solid red 1px;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}

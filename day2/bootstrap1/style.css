@@ -1,0 +1,61 @@
+body{
+	background-image: url('backimg.png');
+}
+
+.colonerose{
+
+}
+
+.caserose{
+	background-color: pink;
+	height: 20em;
+	margin-top: 40%;
+	display: table;
+	-webkit-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.75);
+}
+
+.txt1{
+	position: relative;
+	color: whitesmoke;
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+	font-size: 60px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 100px;
+	margin-top: 1em;
+}
+
+.btnrose{
+	margin-top: 2em;
+	background-color: transparent;
+	border-radius: 5px;
+	color: pink;
+	border: solid 1px pink;
+	height: 5em;
+	width: 15em;
+	-webkit-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 23px 1px rgba(0,0,0,0.75);
+}
+
+.btnrose:hover{
+	background-color: pink;
+	color: white;
+	border: solid 1px pink;
+}
+
+.btnrose:active{
+	outline: none;
+	background-color: lightpink;
+}
+
+.btnrose:focus{
+	outline: none;
+}
+
+.test1:hover{
+	background-color: pink;
+}
+
